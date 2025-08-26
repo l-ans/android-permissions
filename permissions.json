@@ -1,0 +1,1699 @@
+{
+  "permissions": [
+    {
+      "name": "ACCEPT_HANDOVER",
+      "constant_value": "android.permission.ACCEPT_HANDOVER",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "ACCESS_BACKGROUND_LOCATION",
+      "constant_value": "android.permission.ACCESS_BACKGROUND_LOCATION",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "ACCESS_BLOBS_ACROSS_USERS",
+      "constant_value": "android.permission.ACCESS_BLOBS_ACROSS_USERS",
+      "protection-level": ""
+    },
+    {
+      "name": "ACCESS_CHECKIN_PROPERTIES",
+      "constant_value": "android.permission.ACCESS_CHECKIN_PROPERTIES",
+      "protection-level": ""
+    },
+    {
+      "name": "ACCESS_COARSE_LOCATION",
+      "constant_value": "android.permission.ACCESS_COARSE_LOCATION",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "ACCESS_FINE_LOCATION",
+      "constant_value": "android.permission.ACCESS_FINE_LOCATION",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "ACCESS_HIDDEN_PROFILES",
+      "constant_value": "android.permission.ACCESS_HIDDEN_PROFILES",
+      "protection-level": "normal"
+    },
+    {
+      "name": "ACCESS_LAUNCHER_DATA",
+      "constant_value": "android.permission.ACCESS_LAUNCHER_DATA",
+      "protection-level": ""
+    },
+    {
+      "name": "ACCESS_LOCATION_EXTRA_COMMANDS",
+      "constant_value": "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+      "protection-level": "normal"
+    },
+    {
+      "name": "ACCESS_MEDIA_LOCATION",
+      "constant_value": "android.permission.ACCESS_MEDIA_LOCATION",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "ACCESS_NETWORK_STATE",
+      "constant_value": "android.permission.ACCESS_NETWORK_STATE",
+      "protection-level": "normal"
+    },
+    {
+      "name": "ACCESS_NOTIFICATION_POLICY",
+      "constant_value": "android.permission.ACCESS_NOTIFICATION_POLICY",
+      "protection-level": "normal"
+    },
+    {
+      "name": "ACCESS_WIFI_STATE",
+      "constant_value": "android.permission.ACCESS_WIFI_STATE",
+      "protection-level": "normal"
+    },
+    {
+      "name": "ACCOUNT_MANAGER",
+      "constant_value": "android.permission.ACCOUNT_MANAGER",
+      "protection-level": ""
+    },
+    {
+      "name": "ACTIVITY_RECOGNITION",
+      "constant_value": "android.permission.ACTIVITY_RECOGNITION",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "ADD_VOICEMAIL",
+      "constant_value": "com.android.voicemail.permission.ADD_VOICEMAIL",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "ANSWER_PHONE_CALLS",
+      "constant_value": "android.permission.ANSWER_PHONE_CALLS",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "APPLY_PICTURE_PROFILE",
+      "constant_value": "android.permission.APPLY_PICTURE_PROFILE",
+      "protection-level": ""
+    },
+    {
+      "name": "BATTERY_STATS",
+      "constant_value": "android.permission.BATTERY_STATS",
+      "protection-level": "signature|privileged|development"
+    },
+    {
+      "name": "BIND_ACCESSIBILITY_SERVICE",
+      "constant_value": "android.permission.BIND_ACCESSIBILITY_SERVICE",
+      "protection-level": "signature"
+    },
+    {
+      "name": "BIND_APPWIDGET",
+      "constant_value": "android.permission.BIND_APPWIDGET",
+      "protection-level": ""
+    },
+    {
+      "name": "BIND_APP_FUNCTION_SERVICE",
+      "constant_value": "android.permission.BIND_APP_FUNCTION_SERVICE",
+      "protection-level": "signature"
+    },
+    {
+      "name": "BIND_AUTOFILL_SERVICE",
+      "constant_value": "android.permission.BIND_AUTOFILL_SERVICE",
+      "protection-level": "signature"
+    },
+    {
+      "name": "BIND_CALL_REDIRECTION_SERVICE",
+      "constant_value": "android.permission.BIND_CALL_REDIRECTION_SERVICE",
+      "protection-level": "signature|privileged"
+    },
+    {
+      "name": "BIND_CARRIER_MESSAGING_CLIENT_SERVICE",
+      "constant_value": "android.permission.BIND_CARRIER_MESSAGING_CLIENT_SERVICE",
+      "protection-level": "signature"
+    },
+    {
+      "name": "BIND_CARRIER_MESSAGING_SERVICE",
+      "constant_value": "android.permission.BIND_CARRIER_MESSAGING_SERVICE",
+      "protection-level": ""
+    },
+    {
+      "name": "BIND_CARRIER_SERVICES",
+      "constant_value": "android.permission.BIND_CARRIER_SERVICES",
+      "protection-level": "signature|privileged"
+    },
+    {
+      "name": "BIND_CHOOSER_TARGET_SERVICE",
+      "constant_value": "android.permission.BIND_CHOOSER_TARGET_SERVICE",
+      "protection-level": "signature"
+    },
+    {
+      "name": "BIND_COMPANION_DEVICE_SERVICE",
+      "constant_value": "android.permission.BIND_COMPANION_DEVICE_SERVICE",
+      "protection-level": ""
+    },
+    {
+      "name": "BIND_CONDITION_PROVIDER_SERVICE",
+      "constant_value": "android.permission.BIND_CONDITION_PROVIDER_SERVICE",
+      "protection-level": "signature"
+    },
+    {
+      "name": "BIND_CONTROLS",
+      "constant_value": "android.permission.BIND_CONTROLS",
+      "protection-level": ""
+    },
+    {
+      "name": "BIND_CREDENTIAL_PROVIDER_SERVICE",
+      "constant_value": "android.permission.BIND_CREDENTIAL_PROVIDER_SERVICE",
+      "protection-level": "signature"
+    },
+    {
+      "name": "BIND_DEVICE_ADMIN",
+      "constant_value": "android.permission.BIND_DEVICE_ADMIN",
+      "protection-level": "signature"
+    },
+    {
+      "name": "BIND_DREAM_SERVICE",
+      "constant_value": "android.permission.BIND_DREAM_SERVICE",
+      "protection-level": "signature"
+    },
+    {
+      "name": "BIND_INCALL_SERVICE",
+      "constant_value": "android.permission.BIND_INCALL_SERVICE",
+      "protection-level": "signature|privileged"
+    },
+    {
+      "name": "BIND_INPUT_METHOD",
+      "constant_value": "android.permission.BIND_INPUT_METHOD",
+      "protection-level": "signature"
+    },
+    {
+      "name": "BIND_MIDI_DEVICE_SERVICE",
+      "constant_value": "android.permission.BIND_MIDI_DEVICE_SERVICE",
+      "protection-level": "signature"
+    },
+    {
+      "name": "BIND_NFC_SERVICE",
+      "constant_value": "android.permission.BIND_NFC_SERVICE",
+      "protection-level": "signature"
+    },
+    {
+      "name": "BIND_NOTIFICATION_LISTENER_SERVICE",
+      "constant_value": "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE",
+      "protection-level": "signature"
+    },
+    {
+      "name": "BIND_PRINT_SERVICE",
+      "constant_value": "android.permission.BIND_PRINT_SERVICE",
+      "protection-level": "signature"
+    },
+    {
+      "name": "BIND_QUICK_ACCESS_WALLET_SERVICE",
+      "constant_value": "android.permission.BIND_QUICK_ACCESS_WALLET_SERVICE",
+      "protection-level": "signature"
+    },
+    {
+      "name": "BIND_QUICK_SETTINGS_TILE",
+      "constant_value": "android.permission.BIND_QUICK_SETTINGS_TILE",
+      "protection-level": ""
+    },
+    {
+      "name": "BIND_REMOTEVIEWS",
+      "constant_value": "android.permission.BIND_REMOTEVIEWS",
+      "protection-level": "signature|privileged"
+    },
+    {
+      "name": "BIND_SCREENING_SERVICE",
+      "constant_value": "android.permission.BIND_SCREENING_SERVICE",
+      "protection-level": "signature|privileged"
+    },
+    {
+      "name": "BIND_TELECOM_CONNECTION_SERVICE",
+      "constant_value": "android.permission.BIND_TELECOM_CONNECTION_SERVICE",
+      "protection-level": "signature|privileged"
+    },
+    {
+      "name": "BIND_TEXT_SERVICE",
+      "constant_value": "android.permission.BIND_TEXT_SERVICE",
+      "protection-level": "signature"
+    },
+    {
+      "name": "BIND_TV_AD_SERVICE",
+      "constant_value": "android.permission.BIND_TV_AD_SERVICE",
+      "protection-level": "signature|privileged"
+    },
+    {
+      "name": "BIND_TV_INPUT",
+      "constant_value": "android.permission.BIND_TV_INPUT",
+      "protection-level": "signature|privileged"
+    },
+    {
+      "name": "BIND_TV_INTERACTIVE_APP",
+      "constant_value": "android.permission.BIND_TV_INTERACTIVE_APP",
+      "protection-level": "signature|privileged"
+    },
+    {
+      "name": "BIND_VISUAL_VOICEMAIL_SERVICE",
+      "constant_value": "android.permission.BIND_VISUAL_VOICEMAIL_SERVICE",
+      "protection-level": "signature|privileged"
+    },
+    {
+      "name": "BIND_VOICE_INTERACTION",
+      "constant_value": "android.permission.BIND_VOICE_INTERACTION",
+      "protection-level": "signature"
+    },
+    {
+      "name": "BIND_VPN_SERVICE",
+      "constant_value": "android.permission.BIND_VPN_SERVICE",
+      "protection-level": "signature"
+    },
+    {
+      "name": "BIND_VR_LISTENER_SERVICE",
+      "constant_value": "android.permission.BIND_VR_LISTENER_SERVICE",
+      "protection-level": "signature"
+    },
+    {
+      "name": "BIND_WALLPAPER",
+      "constant_value": "android.permission.BIND_WALLPAPER",
+      "protection-level": "signature|privileged"
+    },
+    {
+      "name": "BLUETOOTH",
+      "constant_value": "android.permission.BLUETOOTH",
+      "protection-level": "normal"
+    },
+    {
+      "name": "BLUETOOTH_ADMIN",
+      "constant_value": "android.permission.BLUETOOTH_ADMIN",
+      "protection-level": "normal"
+    },
+    {
+      "name": "BLUETOOTH_ADVERTISE",
+      "constant_value": "android.permission.BLUETOOTH_ADVERTISE",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "BLUETOOTH_CONNECT",
+      "constant_value": "android.permission.BLUETOOTH_CONNECT",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "BLUETOOTH_PRIVILEGED",
+      "constant_value": "android.permission.BLUETOOTH_PRIVILEGED",
+      "protection-level": ""
+    },
+    {
+      "name": "BLUETOOTH_SCAN",
+      "constant_value": "android.permission.BLUETOOTH_SCAN",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "BODY_SENSORS",
+      "constant_value": "android.permission.BODY_SENSORS",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "BODY_SENSORS_BACKGROUND",
+      "constant_value": "android.permission.BODY_SENSORS_BACKGROUND",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "BROADCAST_PACKAGE_REMOVED",
+      "constant_value": "android.permission.BROADCAST_PACKAGE_REMOVED",
+      "protection-level": ""
+    },
+    {
+      "name": "BROADCAST_SMS",
+      "constant_value": "android.permission.BROADCAST_SMS",
+      "protection-level": ""
+    },
+    {
+      "name": "BROADCAST_STICKY",
+      "constant_value": "android.permission.BROADCAST_STICKY",
+      "protection-level": "normal"
+    },
+    {
+      "name": "BROADCAST_WAP_PUSH",
+      "constant_value": "android.permission.BROADCAST_WAP_PUSH",
+      "protection-level": ""
+    },
+    {
+      "name": "CALL_COMPANION_APP",
+      "constant_value": "android.permission.CALL_COMPANION_APP",
+      "protection-level": "normal"
+    },
+    {
+      "name": "CALL_PHONE",
+      "constant_value": "android.permission.CALL_PHONE",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "CALL_PRIVILEGED",
+      "constant_value": "android.permission.CALL_PRIVILEGED",
+      "protection-level": ""
+    },
+    {
+      "name": "CAMERA",
+      "constant_value": "android.permission.CAMERA",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "CAPTURE_AUDIO_OUTPUT",
+      "constant_value": "android.permission.CAPTURE_AUDIO_OUTPUT",
+      "protection-level": ""
+    },
+    {
+      "name": "CAPTURE_KEYBOARD",
+      "constant_value": "android.permission.CAPTURE_KEYBOARD",
+      "protection-level": "normal"
+    },
+    {
+      "name": "CHANGE_COMPONENT_ENABLED_STATE",
+      "constant_value": "android.permission.CHANGE_COMPONENT_ENABLED_STATE",
+      "protection-level": ""
+    },
+    {
+      "name": "CHANGE_CONFIGURATION",
+      "constant_value": "android.permission.CHANGE_CONFIGURATION",
+      "protection-level": "signature|privileged|development"
+    },
+    {
+      "name": "CHANGE_NETWORK_STATE",
+      "constant_value": "android.permission.CHANGE_NETWORK_STATE",
+      "protection-level": "normal"
+    },
+    {
+      "name": "CHANGE_WIFI_MULTICAST_STATE",
+      "constant_value": "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+      "protection-level": "normal"
+    },
+    {
+      "name": "CHANGE_WIFI_STATE",
+      "constant_value": "android.permission.CHANGE_WIFI_STATE",
+      "protection-level": "normal"
+    },
+    {
+      "name": "CLEAR_APP_CACHE",
+      "constant_value": "android.permission.CLEAR_APP_CACHE",
+      "protection-level": "signature|privileged"
+    },
+    {
+      "name": "CONFIGURE_WIFI_DISPLAY",
+      "constant_value": "android.permission.CONFIGURE_WIFI_DISPLAY",
+      "protection-level": ""
+    },
+    {
+      "name": "CONTROL_LOCATION_UPDATES",
+      "constant_value": "android.permission.CONTROL_LOCATION_UPDATES",
+      "protection-level": ""
+    },
+    {
+      "name": "CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS",
+      "constant_value": "android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS",
+      "protection-level": "normal"
+    },
+    {
+      "name": "CREDENTIAL_MANAGER_SET_ALLOWED_PROVIDERS",
+      "constant_value": "android.permission.CREDENTIAL_MANAGER_SET_ALLOWED_PROVIDERS",
+      "protection-level": "normal"
+    },
+    {
+      "name": "CREDENTIAL_MANAGER_SET_ORIGIN",
+      "constant_value": "android.permission.CREDENTIAL_MANAGER_SET_ORIGIN",
+      "protection-level": "normal"
+    },
+    {
+      "name": "DELETE_CACHE_FILES",
+      "constant_value": "android.permission.DELETE_CACHE_FILES",
+      "protection-level": "signature|privileged"
+    },
+    {
+      "name": "DELETE_PACKAGES",
+      "constant_value": "android.permission.DELETE_PACKAGES",
+      "protection-level": ""
+    },
+    {
+      "name": "DELIVER_COMPANION_MESSAGES",
+      "constant_value": "android.permission.DELIVER_COMPANION_MESSAGES",
+      "protection-level": ""
+    },
+    {
+      "name": "DETECT_SCREEN_CAPTURE",
+      "constant_value": "android.permission.DETECT_SCREEN_CAPTURE",
+      "protection-level": "normal"
+    },
+    {
+      "name": "DETECT_SCREEN_RECORDING",
+      "constant_value": "android.permission.DETECT_SCREEN_RECORDING",
+      "protection-level": "normal"
+    },
+    {
+      "name": "DIAGNOSTIC",
+      "constant_value": "android.permission.DIAGNOSTIC",
+      "protection-level": ""
+    },
+    {
+      "name": "DISABLE_KEYGUARD",
+      "constant_value": "android.permission.DISABLE_KEYGUARD",
+      "protection-level": "normal"
+    },
+    {
+      "name": "DUMP",
+      "constant_value": "android.permission.DUMP",
+      "protection-level": ""
+    },
+    {
+      "name": "ENFORCE_UPDATE_OWNERSHIP",
+      "constant_value": "android.permission.ENFORCE_UPDATE_OWNERSHIP",
+      "protection-level": "normal"
+    },
+    {
+      "name": "EXECUTE_APP_ACTION",
+      "constant_value": "android.permission.EXECUTE_APP_ACTION",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "EXECUTE_APP_FUNCTIONS",
+      "constant_value": "android.permission.EXECUTE_APP_FUNCTIONS",
+      "protection-level": "normal"
+    },
+    {
+      "name": "EXPAND_STATUS_BAR",
+      "constant_value": "android.permission.EXPAND_STATUS_BAR",
+      "protection-level": "normal"
+    },
+    {
+      "name": "FACTORY_TEST",
+      "constant_value": "android.permission.FACTORY_TEST",
+      "protection-level": ""
+    },
+    {
+      "name": "FOREGROUND_SERVICE",
+      "constant_value": "android.permission.FOREGROUND_SERVICE",
+      "protection-level": "normal"
+    },
+    {
+      "name": "FOREGROUND_SERVICE_CAMERA",
+      "constant_value": "android.permission.FOREGROUND_SERVICE_CAMERA",
+      "protection-level": "normal|instant"
+    },
+    {
+      "name": "FOREGROUND_SERVICE_CONNECTED_DEVICE",
+      "constant_value": "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
+      "protection-level": "normal|instant"
+    },
+    {
+      "name": "FOREGROUND_SERVICE_DATA_SYNC",
+      "constant_value": "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+      "protection-level": "normal|instant"
+    },
+    {
+      "name": "FOREGROUND_SERVICE_HEALTH",
+      "constant_value": "android.permission.FOREGROUND_SERVICE_HEALTH",
+      "protection-level": "normal|instant"
+    },
+    {
+      "name": "FOREGROUND_SERVICE_LOCATION",
+      "constant_value": "android.permission.FOREGROUND_SERVICE_LOCATION",
+      "protection-level": "normal|instant"
+    },
+    {
+      "name": "FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+      "constant_value": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+      "protection-level": "normal|instant"
+    },
+    {
+      "name": "FOREGROUND_SERVICE_MEDIA_PROCESSING",
+      "constant_value": "android.permission.FOREGROUND_SERVICE_MEDIA_PROCESSING",
+      "protection-level": "normal|instant"
+    },
+    {
+      "name": "FOREGROUND_SERVICE_MEDIA_PROJECTION",
+      "constant_value": "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+      "protection-level": "normal|instant"
+    },
+    {
+      "name": "FOREGROUND_SERVICE_MICROPHONE",
+      "constant_value": "android.permission.FOREGROUND_SERVICE_MICROPHONE",
+      "protection-level": "normal|instant"
+    },
+    {
+      "name": "FOREGROUND_SERVICE_PHONE_CALL",
+      "constant_value": "android.permission.FOREGROUND_SERVICE_PHONE_CALL",
+      "protection-level": "normal|instant"
+    },
+    {
+      "name": "FOREGROUND_SERVICE_REMOTE_MESSAGING",
+      "constant_value": "android.permission.FOREGROUND_SERVICE_REMOTE_MESSAGING",
+      "protection-level": "normal|instant"
+    },
+    {
+      "name": "FOREGROUND_SERVICE_SPECIAL_USE",
+      "constant_value": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+      "protection-level": "normal|appop|instant"
+    },
+    {
+      "name": "FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+      "constant_value": "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+      "protection-level": "normal|instant"
+    },
+    {
+      "name": "GET_ACCOUNTS",
+      "constant_value": "android.permission.GET_ACCOUNTS",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "GET_ACCOUNTS_PRIVILEGED",
+      "constant_value": "android.permission.GET_ACCOUNTS_PRIVILEGED",
+      "protection-level": "signature|privileged"
+    },
+    {
+      "name": "GET_PACKAGE_SIZE",
+      "constant_value": "android.permission.GET_PACKAGE_SIZE",
+      "protection-level": "normal"
+    },
+    {
+      "name": "GET_TASKS",
+      "constant_value": "android.permission.GET_TASKS",
+      "protection-level": ""
+    },
+    {
+      "name": "GLOBAL_SEARCH",
+      "constant_value": "android.permission.GLOBAL_SEARCH",
+      "protection-level": "signature|privileged"
+    },
+    {
+      "name": "HIDE_OVERLAY_WINDOWS",
+      "constant_value": "android.permission.HIDE_OVERLAY_WINDOWS",
+      "protection-level": ""
+    },
+    {
+      "name": "HIGH_SAMPLING_RATE_SENSORS",
+      "constant_value": "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+      "protection-level": "normal"
+    },
+    {
+      "name": "INSTALL_LOCATION_PROVIDER",
+      "constant_value": "android.permission.INSTALL_LOCATION_PROVIDER",
+      "protection-level": ""
+    },
+    {
+      "name": "INSTALL_PACKAGES",
+      "constant_value": "android.permission.INSTALL_PACKAGES",
+      "protection-level": ""
+    },
+    {
+      "name": "INSTALL_SHORTCUT",
+      "constant_value": "com.android.launcher.permission.INSTALL_SHORTCUT",
+      "protection-level": "normal"
+    },
+    {
+      "name": "INSTANT_APP_FOREGROUND_SERVICE",
+      "constant_value": "android.permission.INSTANT_APP_FOREGROUND_SERVICE",
+      "protection-level": "signature|development|instant|appop"
+    },
+    {
+      "name": "INTERACT_ACROSS_PROFILES",
+      "constant_value": "android.permission.INTERACT_ACROSS_PROFILES",
+      "protection-level": ""
+    },
+    {
+      "name": "INTERNET",
+      "constant_value": "android.permission.INTERNET",
+      "protection-level": "normal"
+    },
+    {
+      "name": "KILL_BACKGROUND_PROCESSES",
+      "constant_value": "android.permission.KILL_BACKGROUND_PROCESSES",
+      "protection-level": "normal"
+    },
+    {
+      "name": "LAUNCH_CAPTURE_CONTENT_ACTIVITY_FOR_NOTE",
+      "constant_value": "android.permission.LAUNCH_CAPTURE_CONTENT_ACTIVITY_FOR_NOTE",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK",
+      "constant_value": "android.permission.LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK",
+      "protection-level": ""
+    },
+    {
+      "name": "LOADER_USAGE_STATS",
+      "constant_value": "android.permission.LOADER_USAGE_STATS",
+      "protection-level": "signature|privileged|appop"
+    },
+    {
+      "name": "LOCATION_HARDWARE",
+      "constant_value": "android.permission.LOCATION_HARDWARE",
+      "protection-level": ""
+    },
+    {
+      "name": "MANAGE_DEVICE_LOCK_STATE",
+      "constant_value": "android.permission.MANAGE_DEVICE_LOCK_STATE",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_ACCESSIBILITY",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_ACCESSIBILITY",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_ACCOUNT_MANAGEMENT",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_ACCOUNT_MANAGEMENT",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_ACROSS_USERS",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_ACROSS_USERS_SECURITY_CRITICAL",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_SECURITY_CRITICAL",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_AIRPLANE_MODE",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_AIRPLANE_MODE",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_APPS_CONTROL",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_APPS_CONTROL",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_APP_FUNCTIONS",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_APP_FUNCTIONS",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_APP_RESTRICTIONS",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_APP_RESTRICTIONS",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_APP_USER_DATA",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_APP_USER_DATA",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_ASSIST_CONTENT",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_ASSIST_CONTENT",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_AUDIO_OUTPUT",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_AUDIO_OUTPUT",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_AUTOFILL",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_AUTOFILL",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_BACKUP_SERVICE",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_BACKUP_SERVICE",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_BLOCK_UNINSTALL",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_BLOCK_UNINSTALL",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_BLUETOOTH",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_BLUETOOTH",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_BUGREPORT",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_BUGREPORT",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_CALLS",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_CALLS",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_CAMERA",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_CAMERA",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_CAMERA_TOGGLE",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_CAMERA_TOGGLE",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_CERTIFICATES",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_CERTIFICATES",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_COMMON_CRITERIA_MODE",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_COMMON_CRITERIA_MODE",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_CONTENT_PROTECTION",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_CONTENT_PROTECTION",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_DEBUGGING_FEATURES",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_DEBUGGING_FEATURES",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_DEFAULT_SMS",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_DEFAULT_SMS",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_DEVICE_IDENTIFIERS",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_DEVICE_IDENTIFIERS",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_DISPLAY",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_DISPLAY",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_FACTORY_RESET",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_FACTORY_RESET",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_FUN",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_FUN",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_INPUT_METHODS",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_INPUT_METHODS",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_INSTALL_UNKNOWN_SOURCES",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_INSTALL_UNKNOWN_SOURCES",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_KEEP_UNINSTALLED_PACKAGES",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_KEEP_UNINSTALLED_PACKAGES",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_KEYGUARD",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_KEYGUARD",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_LOCALE",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_LOCALE",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_LOCATION",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_LOCATION",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_LOCK",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_LOCK",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_LOCK_CREDENTIALS",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_LOCK_CREDENTIALS",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_LOCK_TASK",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_LOCK_TASK",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_MANAGED_SUBSCRIPTIONS",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_MANAGED_SUBSCRIPTIONS",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_METERED_DATA",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_METERED_DATA",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_MICROPHONE",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_MICROPHONE",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_MICROPHONE_TOGGLE",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_MICROPHONE_TOGGLE",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_MOBILE_NETWORK",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_MOBILE_NETWORK",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_MODIFY_USERS",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_MODIFY_USERS",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_MTE",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_MTE",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_NEARBY_COMMUNICATION",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_NEARBY_COMMUNICATION",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_NETWORK_LOGGING",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_NETWORK_LOGGING",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_ORGANIZATION_IDENTITY",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_ORGANIZATION_IDENTITY",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_OVERRIDE_APN",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_OVERRIDE_APN",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_PACKAGE_STATE",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_PACKAGE_STATE",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_PHYSICAL_MEDIA",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_PHYSICAL_MEDIA",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_PRINTING",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_PRINTING",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_PRIVATE_DNS",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_PRIVATE_DNS",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_PROFILES",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_PROFILES",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_PROFILE_INTERACTION",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_PROFILE_INTERACTION",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_PROXY",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_PROXY",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_QUERY_SYSTEM_UPDATES",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_QUERY_SYSTEM_UPDATES",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_RESET_PASSWORD",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_RESET_PASSWORD",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_RESTRICT_PRIVATE_DNS",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_RESTRICT_PRIVATE_DNS",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_RUNTIME_PERMISSIONS",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_RUNTIME_PERMISSIONS",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_RUN_IN_BACKGROUND",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_RUN_IN_BACKGROUND",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_SAFE_BOOT",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_SAFE_BOOT",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_SCREEN_CAPTURE",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_SCREEN_CAPTURE",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_SCREEN_CONTENT",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_SCREEN_CONTENT",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_SECURITY_LOGGING",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_SECURITY_LOGGING",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_SETTINGS",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_SETTINGS",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_SMS",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_SMS",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_STATUS_BAR",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_STATUS_BAR",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_SUPPORT_MESSAGE",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_SUPPORT_MESSAGE",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_SUSPEND_PERSONAL_APPS",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_SUSPEND_PERSONAL_APPS",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_SYSTEM_APPS",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_SYSTEM_APPS",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_SYSTEM_DIALOGS",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_SYSTEM_DIALOGS",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_SYSTEM_UPDATES",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_SYSTEM_UPDATES",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_THREAD_NETWORK",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_THREAD_NETWORK",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_TIME",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_TIME",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_USB_DATA_SIGNALLING",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_USB_DATA_SIGNALLING",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_USB_FILE_TRANSFER",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_USB_FILE_TRANSFER",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_USERS",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_USERS",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_VPN",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_VPN",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_WALLPAPER",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_WALLPAPER",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_WIFI",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_WIFI",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_WINDOWS",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_WINDOWS",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DEVICE_POLICY_WIPE_DATA",
+      "constant_value": "android.permission.MANAGE_DEVICE_POLICY_WIPE_DATA",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "MANAGE_DOCUMENTS",
+      "constant_value": "android.permission.MANAGE_DOCUMENTS",
+      "protection-level": ""
+    },
+    {
+      "name": "MANAGE_EXTERNAL_STORAGE",
+      "constant_value": "android.permission.MANAGE_EXTERNAL_STORAGE",
+      "protection-level": "signature|appop|preinstalled"
+    },
+    {
+      "name": "MANAGE_MEDIA",
+      "constant_value": "android.permission.MANAGE_MEDIA",
+      "protection-level": "signature|appop|preinstalled"
+    },
+    {
+      "name": "MANAGE_ONGOING_CALLS",
+      "constant_value": "android.permission.MANAGE_ONGOING_CALLS",
+      "protection-level": "signature|appop"
+    },
+    {
+      "name": "MANAGE_OWN_CALLS",
+      "constant_value": "android.permission.MANAGE_OWN_CALLS",
+      "protection-level": "normal"
+    },
+    {
+      "name": "MANAGE_WIFI_INTERFACES",
+      "constant_value": "android.permission.MANAGE_WIFI_INTERFACES",
+      "protection-level": ""
+    },
+    {
+      "name": "MANAGE_WIFI_NETWORK_SELECTION",
+      "constant_value": "android.permission.MANAGE_WIFI_NETWORK_SELECTION",
+      "protection-level": ""
+    },
+    {
+      "name": "MASTER_CLEAR",
+      "constant_value": "android.permission.MASTER_CLEAR",
+      "protection-level": ""
+    },
+    {
+      "name": "MEDIA_CONTENT_CONTROL",
+      "constant_value": "android.permission.MEDIA_CONTENT_CONTROL",
+      "protection-level": ""
+    },
+    {
+      "name": "MEDIA_ROUTING_CONTROL",
+      "constant_value": "android.permission.MEDIA_ROUTING_CONTROL",
+      "protection-level": ""
+    },
+    {
+      "name": "MODIFY_AUDIO_SETTINGS",
+      "constant_value": "android.permission.MODIFY_AUDIO_SETTINGS",
+      "protection-level": "normal"
+    },
+    {
+      "name": "MODIFY_PHONE_STATE",
+      "constant_value": "android.permission.MODIFY_PHONE_STATE",
+      "protection-level": ""
+    },
+    {
+      "name": "MOUNT_FORMAT_FILESYSTEMS",
+      "constant_value": "android.permission.MOUNT_FORMAT_FILESYSTEMS",
+      "protection-level": ""
+    },
+    {
+      "name": "MOUNT_UNMOUNT_FILESYSTEMS",
+      "constant_value": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+      "protection-level": ""
+    },
+    {
+      "name": "NEARBY_WIFI_DEVICES",
+      "constant_value": "android.permission.NEARBY_WIFI_DEVICES",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "NFC",
+      "constant_value": "android.permission.NFC",
+      "protection-level": "normal"
+    },
+    {
+      "name": "NFC_PREFERRED_PAYMENT_INFO",
+      "constant_value": "android.permission.NFC_PREFERRED_PAYMENT_INFO",
+      "protection-level": "normal"
+    },
+    {
+      "name": "NFC_TRANSACTION_EVENT",
+      "constant_value": "android.permission.NFC_TRANSACTION_EVENT",
+      "protection-level": "normal"
+    },
+    {
+      "name": "OVERRIDE_WIFI_CONFIG",
+      "constant_value": "android.permission.OVERRIDE_WIFI_CONFIG",
+      "protection-level": ""
+    },
+    {
+      "name": "PACKAGE_USAGE_STATS",
+      "constant_value": "android.permission.PACKAGE_USAGE_STATS",
+      "protection-level": "signature|privileged|development|appop|retailDemo"
+    },
+    {
+      "name": "PERSISTENT_ACTIVITY",
+      "constant_value": "android.permission.PERSISTENT_ACTIVITY",
+      "protection-level": ""
+    },
+    {
+      "name": "POST_NOTIFICATIONS",
+      "constant_value": "android.permission.POST_NOTIFICATIONS",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "POST_PROMOTED_NOTIFICATIONS",
+      "constant_value": "android.permission.POST_PROMOTED_NOTIFICATIONS",
+      "protection-level": "normal|appops"
+    },
+    {
+      "name": "PROCESS_OUTGOING_CALLS",
+      "constant_value": "android.permission.PROCESS_OUTGOING_CALLS",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "PROVIDE_OWN_AUTOFILL_SUGGESTIONS",
+      "constant_value": "android.permission.PROVIDE_OWN_AUTOFILL_SUGGESTIONS",
+      "protection-level": "internal|role"
+    },
+    {
+      "name": "PROVIDE_REMOTE_CREDENTIALS",
+      "constant_value": "android.permission.PROVIDE_REMOTE_CREDENTIALS",
+      "protection-level": "signature|privileged|role"
+    },
+    {
+      "name": "QUERY_ADVANCED_PROTECTION_MODE",
+      "constant_value": "android.permission.QUERY_ADVANCED_PROTECTION_MODE",
+      "protection-level": ""
+    },
+    {
+      "name": "QUERY_ALL_PACKAGES",
+      "constant_value": "android.permission.QUERY_ALL_PACKAGES",
+      "protection-level": "normal"
+    },
+    {
+      "name": "RANGING",
+      "constant_value": "android.permission.RANGING",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "READ_ASSISTANT_APP_SEARCH_DATA",
+      "constant_value": "android.permission.READ_ASSISTANT_APP_SEARCH_DATA",
+      "protection-level": ""
+    },
+    {
+      "name": "READ_BASIC_PHONE_STATE",
+      "constant_value": "android.permission.READ_BASIC_PHONE_STATE",
+      "protection-level": ""
+    },
+    {
+      "name": "READ_CALENDAR",
+      "constant_value": "android.permission.READ_CALENDAR",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "READ_CALL_LOG",
+      "constant_value": "android.permission.READ_CALL_LOG",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "READ_COLOR_ZONES",
+      "constant_value": "android.permission.READ_COLOR_ZONES",
+      "protection-level": "normal"
+    },
+    {
+      "name": "READ_CONTACTS",
+      "constant_value": "android.permission.READ_CONTACTS",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "READ_DROPBOX_DATA",
+      "constant_value": "android.permission.READ_DROPBOX_DATA",
+      "protection-level": ""
+    },
+    {
+      "name": "READ_EXTERNAL_STORAGE",
+      "constant_value": "android.permission.READ_EXTERNAL_STORAGE",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "READ_HOME_APP_SEARCH_DATA",
+      "constant_value": "android.permission.READ_HOME_APP_SEARCH_DATA",
+      "protection-level": ""
+    },
+    {
+      "name": "READ_INPUT_STATE",
+      "constant_value": "android.permission.READ_INPUT_STATE",
+      "protection-level": ""
+    },
+    {
+      "name": "READ_LOGS",
+      "constant_value": "android.permission.READ_LOGS",
+      "protection-level": ""
+    },
+    {
+      "name": "READ_MEDIA_AUDIO",
+      "constant_value": "android.permission.READ_MEDIA_AUDIO",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "READ_MEDIA_IMAGES",
+      "constant_value": "android.permission.READ_MEDIA_IMAGES",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "READ_MEDIA_VIDEO",
+      "constant_value": "android.permission.READ_MEDIA_VIDEO",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "READ_MEDIA_VISUAL_USER_SELECTED",
+      "constant_value": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "READ_NEARBY_STREAMING_POLICY",
+      "constant_value": "android.permission.READ_NEARBY_STREAMING_POLICY",
+      "protection-level": ""
+    },
+    {
+      "name": "READ_PHONE_NUMBERS",
+      "constant_value": "android.permission.READ_PHONE_NUMBERS",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "READ_PHONE_STATE",
+      "constant_value": "android.permission.READ_PHONE_STATE",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "READ_PRECISE_PHONE_STATE",
+      "constant_value": "android.permission.READ_PRECISE_PHONE_STATE",
+      "protection-level": ""
+    },
+    {
+      "name": "READ_SMS",
+      "constant_value": "android.permission.READ_SMS",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "READ_SYNC_SETTINGS",
+      "constant_value": "android.permission.READ_SYNC_SETTINGS",
+      "protection-level": "normal"
+    },
+    {
+      "name": "READ_SYNC_STATS",
+      "constant_value": "android.permission.READ_SYNC_STATS",
+      "protection-level": "normal"
+    },
+    {
+      "name": "READ_SYSTEM_PREFERENCES",
+      "constant_value": "android.permission.READ_SYSTEM_PREFERENCES",
+      "protection-level": ""
+    },
+    {
+      "name": "READ_VOICEMAIL",
+      "constant_value": "com.android.voicemail.permission.READ_VOICEMAIL",
+      "protection-level": "signature|privileged|role"
+    },
+    {
+      "name": "REBOOT",
+      "constant_value": "android.permission.REBOOT",
+      "protection-level": ""
+    },
+    {
+      "name": "RECEIVE_BOOT_COMPLETED",
+      "constant_value": "android.permission.RECEIVE_BOOT_COMPLETED",
+      "protection-level": "normal"
+    },
+    {
+      "name": "RECEIVE_MMS",
+      "constant_value": "android.permission.RECEIVE_MMS",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "RECEIVE_SENSITIVE_NOTIFICATIONS",
+      "constant_value": "android.permission.RECEIVE_SENSITIVE_NOTIFICATIONS",
+      "protection-level": "signature|preinstalled|knownSigner|role"
+    },
+    {
+      "name": "RECEIVE_SMS",
+      "constant_value": "android.permission.RECEIVE_SMS",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "RECEIVE_WAP_PUSH",
+      "constant_value": "android.permission.RECEIVE_WAP_PUSH",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "RECORD_AUDIO",
+      "constant_value": "android.permission.RECORD_AUDIO",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "REORDER_TASKS",
+      "constant_value": "android.permission.REORDER_TASKS",
+      "protection-level": "normal"
+    },
+    {
+      "name": "REQUEST_COMPANION_PROFILE_APP_STREAMING",
+      "constant_value": "android.permission.REQUEST_COMPANION_PROFILE_APP_STREAMING",
+      "protection-level": ""
+    },
+    {
+      "name": "REQUEST_COMPANION_PROFILE_AUTOMOTIVE_PROJECTION",
+      "constant_value": "android.permission.REQUEST_COMPANION_PROFILE_AUTOMOTIVE_PROJECTION",
+      "protection-level": ""
+    },
+    {
+      "name": "REQUEST_COMPANION_PROFILE_COMPUTER",
+      "constant_value": "android.permission.REQUEST_COMPANION_PROFILE_COMPUTER",
+      "protection-level": ""
+    },
+    {
+      "name": "REQUEST_COMPANION_PROFILE_GLASSES",
+      "constant_value": "android.permission.REQUEST_COMPANION_PROFILE_GLASSES",
+      "protection-level": "normal"
+    },
+    {
+      "name": "REQUEST_COMPANION_PROFILE_NEARBY_DEVICE_STREAMING",
+      "constant_value": "android.permission.REQUEST_COMPANION_PROFILE_NEARBY_DEVICE_STREAMING",
+      "protection-level": ""
+    },
+    {
+      "name": "REQUEST_COMPANION_PROFILE_WATCH",
+      "constant_value": "android.permission.REQUEST_COMPANION_PROFILE_WATCH",
+      "protection-level": "normal"
+    },
+    {
+      "name": "REQUEST_COMPANION_RUN_IN_BACKGROUND",
+      "constant_value": "android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND",
+      "protection-level": "normal"
+    },
+    {
+      "name": "REQUEST_COMPANION_SELF_MANAGED",
+      "constant_value": "android.permission.REQUEST_COMPANION_SELF_MANAGED",
+      "protection-level": ""
+    },
+    {
+      "name": "REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND",
+      "constant_value": "android.permission.REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND",
+      "protection-level": "normal"
+    },
+    {
+      "name": "REQUEST_COMPANION_USE_DATA_IN_BACKGROUND",
+      "constant_value": "android.permission.REQUEST_COMPANION_USE_DATA_IN_BACKGROUND",
+      "protection-level": "normal"
+    },
+    {
+      "name": "REQUEST_DELETE_PACKAGES",
+      "constant_value": "android.permission.REQUEST_DELETE_PACKAGES",
+      "protection-level": "normal"
+    },
+    {
+      "name": "REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+      "constant_value": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+      "protection-level": "normal"
+    },
+    {
+      "name": "REQUEST_INSTALL_PACKAGES",
+      "constant_value": "android.permission.REQUEST_INSTALL_PACKAGES",
+      "protection-level": "signature"
+    },
+    {
+      "name": "REQUEST_OBSERVE_COMPANION_DEVICE_PRESENCE",
+      "constant_value": "android.permission.REQUEST_OBSERVE_COMPANION_DEVICE_PRESENCE",
+      "protection-level": ""
+    },
+    {
+      "name": "REQUEST_OBSERVE_DEVICE_UUID_PRESENCE",
+      "constant_value": "android.permission.REQUEST_OBSERVE_DEVICE_UUID_PRESENCE",
+      "protection-level": ""
+    },
+    {
+      "name": "REQUEST_PASSWORD_COMPLEXITY",
+      "constant_value": "android.permission.REQUEST_PASSWORD_COMPLEXITY",
+      "protection-level": "normal"
+    },
+    {
+      "name": "RESTART_PACKAGES",
+      "constant_value": "android.permission.RESTART_PACKAGES",
+      "protection-level": ""
+    },
+    {
+      "name": "RUN_USER_INITIATED_JOBS",
+      "constant_value": "android.permission.RUN_USER_INITIATED_JOBS",
+      "protection-level": "normal"
+    },
+    {
+      "name": "SCHEDULE_EXACT_ALARM",
+      "constant_value": "android.permission.SCHEDULE_EXACT_ALARM",
+      "protection-level": "signature|privileged|appop"
+    },
+    {
+      "name": "SEND_RESPOND_VIA_MESSAGE",
+      "constant_value": "android.permission.SEND_RESPOND_VIA_MESSAGE",
+      "protection-level": ""
+    },
+    {
+      "name": "SEND_SMS",
+      "constant_value": "android.permission.SEND_SMS",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "SET_ALARM",
+      "constant_value": "com.android.alarm.permission.SET_ALARM",
+      "protection-level": "normal"
+    },
+    {
+      "name": "SET_ALWAYS_FINISH",
+      "constant_value": "android.permission.SET_ALWAYS_FINISH",
+      "protection-level": ""
+    },
+    {
+      "name": "SET_ANIMATION_SCALE",
+      "constant_value": "android.permission.SET_ANIMATION_SCALE",
+      "protection-level": ""
+    },
+    {
+      "name": "SET_BIOMETRIC_DIALOG_ADVANCED",
+      "constant_value": "android.permission.SET_BIOMETRIC_DIALOG_ADVANCED",
+      "protection-level": ""
+    },
+    {
+      "name": "SET_DEBUG_APP",
+      "constant_value": "android.permission.SET_DEBUG_APP",
+      "protection-level": ""
+    },
+    {
+      "name": "SET_PREFERRED_APPLICATIONS",
+      "constant_value": "android.permission.SET_PREFERRED_APPLICATIONS",
+      "protection-level": ""
+    },
+    {
+      "name": "SET_PROCESS_LIMIT",
+      "constant_value": "android.permission.SET_PROCESS_LIMIT",
+      "protection-level": ""
+    },
+    {
+      "name": "SET_TIME",
+      "constant_value": "android.permission.SET_TIME",
+      "protection-level": ""
+    },
+    {
+      "name": "SET_TIME_ZONE",
+      "constant_value": "android.permission.SET_TIME_ZONE",
+      "protection-level": ""
+    },
+    {
+      "name": "SET_WALLPAPER",
+      "constant_value": "android.permission.SET_WALLPAPER",
+      "protection-level": "normal"
+    },
+    {
+      "name": "SET_WALLPAPER_HINTS",
+      "constant_value": "android.permission.SET_WALLPAPER_HINTS",
+      "protection-level": "normal"
+    },
+    {
+      "name": "SIGNAL_PERSISTENT_PROCESSES",
+      "constant_value": "android.permission.SIGNAL_PERSISTENT_PROCESSES",
+      "protection-level": ""
+    },
+    {
+      "name": "SMS_FINANCIAL_TRANSACTIONS",
+      "constant_value": "android.permission.SMS_FINANCIAL_TRANSACTIONS",
+      "protection-level": "signature|appop"
+    },
+    {
+      "name": "START_FOREGROUND_SERVICES_FROM_BACKGROUND",
+      "constant_value": "android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND",
+      "protection-level": ""
+    },
+    {
+      "name": "START_VIEW_APP_FEATURES",
+      "constant_value": "android.permission.START_VIEW_APP_FEATURES",
+      "protection-level": "signature|installer"
+    },
+    {
+      "name": "START_VIEW_PERMISSION_USAGE",
+      "constant_value": "android.permission.START_VIEW_PERMISSION_USAGE",
+      "protection-level": "signature|installer"
+    },
+    {
+      "name": "STATUS_BAR",
+      "constant_value": "android.permission.STATUS_BAR",
+      "protection-level": ""
+    },
+    {
+      "name": "SUBSCRIBE_TO_KEYGUARD_LOCKED_STATE",
+      "constant_value": "android.permission.SUBSCRIBE_TO_KEYGUARD_LOCKED_STATE",
+      "protection-level": "signature|privileged|module|role"
+    },
+    {
+      "name": "SYSTEM_ALERT_WINDOW",
+      "constant_value": "android.permission.SYSTEM_ALERT_WINDOW",
+      "protection-level": "signature|setup|appop|installer|pre23|development"
+    },
+    {
+      "name": "TRANSMIT_IR",
+      "constant_value": "android.permission.TRANSMIT_IR",
+      "protection-level": "normal"
+    },
+    {
+      "name": "TURN_SCREEN_ON",
+      "constant_value": "android.permission.TURN_SCREEN_ON",
+      "protection-level": ""
+    },
+    {
+      "name": "TV_IMPLICIT_ENTER_PIP",
+      "constant_value": "android.permission.TV_IMPLICIT_ENTER_PIP",
+      "protection-level": ""
+    },
+    {
+      "name": "UNINSTALL_SHORTCUT",
+      "constant_value": "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+      "protection-level": ""
+    },
+    {
+      "name": "UPDATE_DEVICE_STATS",
+      "constant_value": "android.permission.UPDATE_DEVICE_STATS",
+      "protection-level": ""
+    },
+    {
+      "name": "UPDATE_PACKAGES_WITHOUT_USER_ACTION",
+      "constant_value": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION",
+      "protection-level": "normal"
+    },
+    {
+      "name": "USE_BIOMETRIC",
+      "constant_value": "android.permission.USE_BIOMETRIC",
+      "protection-level": "normal"
+    },
+    {
+      "name": "USE_EXACT_ALARM",
+      "constant_value": "android.permission.USE_EXACT_ALARM",
+      "protection-level": ""
+    },
+    {
+      "name": "USE_FINGERPRINT",
+      "constant_value": "android.permission.USE_FINGERPRINT",
+      "protection-level": "normal"
+    },
+    {
+      "name": "USE_FULL_SCREEN_INTENT",
+      "constant_value": "android.permission.USE_FULL_SCREEN_INTENT",
+      "protection-level": "normal"
+    },
+    {
+      "name": "USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER",
+      "constant_value": "android.permission.USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER",
+      "protection-level": "signature|appop"
+    },
+    {
+      "name": "USE_SIP",
+      "constant_value": "android.permission.USE_SIP",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "UWB_RANGING",
+      "constant_value": "android.permission.UWB_RANGING",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "VIBRATE",
+      "constant_value": "android.permission.VIBRATE",
+      "protection-level": "normal"
+    },
+    {
+      "name": "WAKE_LOCK",
+      "constant_value": "android.permission.WAKE_LOCK",
+      "protection-level": "normal"
+    },
+    {
+      "name": "WRITE_APN_SETTINGS",
+      "constant_value": "android.permission.WRITE_APN_SETTINGS",
+      "protection-level": ""
+    },
+    {
+      "name": "WRITE_CALENDAR",
+      "constant_value": "android.permission.WRITE_CALENDAR",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "WRITE_CALL_LOG",
+      "constant_value": "android.permission.WRITE_CALL_LOG",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "WRITE_CONTACTS",
+      "constant_value": "android.permission.WRITE_CONTACTS",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "WRITE_EXTERNAL_STORAGE",
+      "constant_value": "android.permission.WRITE_EXTERNAL_STORAGE",
+      "protection-level": "dangerous"
+    },
+    {
+      "name": "WRITE_GSERVICES",
+      "constant_value": "android.permission.WRITE_GSERVICES",
+      "protection-level": ""
+    },
+    {
+      "name": "WRITE_SECURE_SETTINGS",
+      "constant_value": "android.permission.WRITE_SECURE_SETTINGS",
+      "protection-level": ""
+    },
+    {
+      "name": "WRITE_SETTINGS",
+      "constant_value": "android.permission.WRITE_SETTINGS",
+      "protection-level": "signature|preinstalled|appop|pre23"
+    },
+    {
+      "name": "WRITE_SYNC_SETTINGS",
+      "constant_value": "android.permission.WRITE_SYNC_SETTINGS",
+      "protection-level": "normal"
+    },
+    {
+      "name": "WRITE_SYSTEM_PREFERENCES",
+      "constant_value": "android.permission.WRITE_SYSTEM_PREFERENCES",
+      "protection-level": "signature|privileged|appop"
+    },
+    {
+      "name": "WRITE_VOICEMAIL",
+      "constant_value": "com.android.voicemail.permission.WRITE_VOICEMAIL",
+      "protection-level": "signature|privileged|role"
+    }
+  ]
+}
